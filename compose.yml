@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+      - /app/.venv # Prevent overwriting container's venv with host mount
+    environment:
+      - PYTHONPATH=/app
+    stdin_open: true
+    tty: true
+    command: bash
