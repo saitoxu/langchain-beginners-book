@@ -35,3 +35,4 @@ uv.lock
 MEMO.md
 chroma_db/
 langchain/
+*.db
