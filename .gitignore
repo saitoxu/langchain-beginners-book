@@ -40,4 +40,4 @@ langchain/
 
 /*.sqlite*
 
-/self_reflection_db.json
+/*_reflection_db.json
